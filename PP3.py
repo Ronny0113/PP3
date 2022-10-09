@@ -12,7 +12,7 @@ def chek_eng(b):
 
 def chek_ru(b):
     for m in range(0, len(b)):
-        if b[m] not in alpha1:
+        if b[m] not in alpha2:
             return False
     return True
 
