@@ -33,12 +33,6 @@ while True:
         print("Вы ввели не ту цифру")
         continue
     if a == 1:
-        """while True:
-            word = input("Введиде слово для зашифровки: ")
-            if word.isalpha():
-                break
-            else:
-                print("Вы ввели неверное слово")"""
         word = input("Введиде слово для зашифровки: ")
         word = word.lower()
         if chek_eng(word):
